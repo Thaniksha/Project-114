@@ -1,0 +1,16 @@
+canvas{
+    border: 10px double black;
+    animation-name:chitti;
+    animation-duration:3s;
+    animation-iteration-count: infinite;
+}
+h1{
+    font-weight:bolder ;
+    color: white;
+    animation-name: thaniksha;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+.mustache{
+width: 50;
+}
