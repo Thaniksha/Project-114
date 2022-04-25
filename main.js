@@ -33,3 +33,7 @@ function getPoses(results){
 function modelLoaded(){
     console.log("Posenet is initialized successfully")
 }
+
+function takesnapshot(){
+    save("thaniksha_app.png") 
+}
