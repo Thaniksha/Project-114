@@ -19,14 +19,14 @@ function setup(){
 
 function draw(){
     image(chitti,0,0,400,300)
-    image(mustache,mustachex,mustachey,30,30)
+    image(mustache,mustachex,mustachey,40,25)
     }
 
 function getPoses(results){
     if(results.length>0){
         console.log(results)
-        mustachex=results[0].pose.nose.x-10;
-        mustachey=results[0].pose.nose.y-5;
+        mustachex=results[0].pose.nose.x-18;
+        mustachey=results[0].pose.nose.y+5;
     }
 }   
 
